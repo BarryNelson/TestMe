@@ -21,6 +21,7 @@
 		DA36090418240FF800A61D07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3608E618240FF800A61D07 /* UIKit.framework */; };
 		DA36090C18240FF800A61D07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA36090A18240FF800A61D07 /* InfoPlist.strings */; };
 		DA36090E18240FF800A61D07 /* TestMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36090D18240FF800A61D07 /* TestMeTests.m */; };
+		DA3609191824118600A61D07 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA3609181824118600A61D07 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DA36090918240FF800A61D07 /* TestMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMeTests-Info.plist"; sourceTree = "<group>"; };
 		DA36090B18240FF800A61D07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA36090D18240FF800A61D07 /* TestMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMeTests.m; sourceTree = "<group>"; };
+		DA3609181824118600A61D07 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		DA3608D618240FF800A61D07 = {
 			isa = PBXGroup;
 			children = (
+				DA3609171824116700A61D07 /* Notes */,
 				DA3608E818240FF800A61D07 /* TestMe */,
 				DA36090718240FF800A61D07 /* TestMeTests */,
 				DA3608E118240FF800A61D07 /* Frameworks */,
@@ -150,6 +153,14 @@
 				DA36090A18240FF800A61D07 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA3609171824116700A61D07 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				DA3609181824118600A61D07 /* README.md */,
+			);
+			name = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			files = (
 				DA3608FB18240FF800A61D07 /* Images.xcassets in Resources */,
 				DA3608ED18240FF800A61D07 /* InfoPlist.strings in Resources */,
+				DA3609191824118600A61D07 /* README.md in Resources */,
 				DA3608F618240FF800A61D07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
